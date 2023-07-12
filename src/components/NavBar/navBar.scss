@@ -1,0 +1,35 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 22px 96px;
+  .nav-bar__seperator {
+    margin-left: 76.5px;
+    margin-right: 49px;
+  }
+  .nav-bar__links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    p {
+      color: var(--grey, #999);
+      font-family: Space Grotesk;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    p:hover {
+      color: var(--dark, #1e1e2f);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .account-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

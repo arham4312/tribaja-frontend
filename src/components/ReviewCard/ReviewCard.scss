@@ -1,5 +1,46 @@
-@import "../../index.scss";
+// @import "../../index.scss";
+
 .review-card {
   padding: 38px;
-  background: $very-lite-purple;
+  border-radius: 36px;
+  background: var(--very-lite-purple, #faf9ff);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 427px;
+  gap: 60px;
+  & > svg {
+    height: 34px;
+  }
+  & > p {
+    color: #111;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .review-author {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    gap: 21px;
+    margin-top: auto;
+    div > p:first-of-type {
+      color: #111;
+      font-family: Space Grotesk;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+    }
+    div p {
+      color: var(--neutral-600, #6f6c90);
+      font-family: Space Grotesk;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
 }
