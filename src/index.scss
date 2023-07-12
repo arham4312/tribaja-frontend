@@ -1,0 +1,53 @@
+// @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+:root {
+  --Text-Primary: #1e1e2f;
+  --Brand-Colors-Peach: #fbad84;
+  --Lite-Peach: #fdceb5;
+  --Dark-1: #1e1e2f;
+  --Brand-Colors-Color: #5937cc;
+  --Text-Secondary: #344054;
+  --very-lite-purple: #faf9ff;
+  --Lite-Purple: #bdafeb;
+  --Brand-Colors-Yellow: #feedcc;
+  --Lite-Yellow: #feedcc;
+  --Dark-2: #344054;
+  --Color: #999999;
+  --Lt-Grey: #f2f4f7;
+  --Dark: #1e1e2f;
+  --FFFFFF: #ffffff;
+  --Grey: #999999;
+  --Neutral-2: #ededed;
+  --Neutral-600: #6f6c90;
+  --Purple: #5937cc;
+  --Solid-Primary-20: #d0d9fa;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
