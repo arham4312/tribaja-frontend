@@ -1,0 +1,99 @@
+.footer {
+  justify-content: space-between;
+  padding: 50px 96px 44px;
+  border-radius: 24px 24px 0px 0px;
+  background: var(--very-lite-purple, #faf9ff);
+  .footer-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__text {
+    max-width: 40vw;
+    & > p:first-of-type {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 16px;
+    }
+    p {
+      color: var(--grey, #999);
+      font-family: Space Grotesk;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100.9%; /* 20.18px */
+    }
+    button {
+      margin-top: 24px;
+      margin-bottom: 59px;
+    }
+    a {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100.9%; /* 20.18px */
+      text-decoration: none;
+      margin-top: 20px;
+      margin-bottom: 26px;
+      display: block;
+    }
+  }
+  .footer__links {
+    max-width: 40vw;
+    position: relative;
+    .links-columns {
+      display: flex;
+      justify-content: space-evenly;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        & > li:first-of-type {
+          color: var(--dark, #1e1e2f);
+          font-family: Space Grotesk;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 155%; /* 31px */
+        }
+      }
+      li {
+        list-style: none;
+        color: var(--dark, #1e1e2f);
+        font-family: Space Grotesk;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%; /* 24.8px */
+      }
+    }
+  }
+  .back-to-top {
+    color: var(--dark, #1e1e2f);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.9%; /* 20.18px */
+    position: absolute;
+    bottom: 26px;
+    right: 0;
+    text-decoration: none;
+  }
+  .copyright-and-privacy {
+    color: var(--dark, #1e1e2f);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%; /* 16.144px */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
