@@ -1,0 +1,98 @@
+.how-it-works-section {
+  margin-bottom: 120px;
+  h2 {
+    color: var(--dark, #1e1e2f);
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  .grid-container {
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr 1fr auto 1fr 1fr auto 1fr;
+    grid-gap: 10px;
+  }
+
+  .grid-item:nth-child(1) {
+    grid-column: 1 / span 1;
+  }
+
+  .grid-item:nth-child(2) {
+    grid-column: 2 / span 1;
+  }
+
+  .grid-item:nth-child(3) {
+    grid-column: 3 / span 2;
+  }
+
+  .grid-item:nth-child(4) {
+    grid-column: 5 / span 1;
+  }
+
+  .grid-item:nth-child(5) {
+    grid-column: 6 / span 2;
+  }
+
+  .grid-item:nth-child(6) {
+    grid-column: 8 / span 1;
+  }
+
+  .grid-item {
+    // background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .horizontal-line {
+    height: 1px;
+    // background-color: black;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+  }
+
+  .tranparent {
+    background: transparent;
+  }
+  .colums {
+    grid-column: span 3; /* The div will span across 2 columns */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    & > p:first-of-type {
+      color: #111;
+      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100.9%; /* 28.252px */
+    }
+    p {
+      color: #111;
+      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100.9%; /* 18.162px */
+      max-width: 400px;
+    }
+  }
+  .svg-wrapper {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: var(--lite-purple, #bdafeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

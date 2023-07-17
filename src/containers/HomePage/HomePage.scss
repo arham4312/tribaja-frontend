@@ -303,27 +303,27 @@
       }
     }
   }
-  .reviews-section {
-    margin-bottom: 102px;
-    h2 {
-      margin-bottom: 24px;
-      color: var(--dark, #1e1e2f);
-      font-family: Space Grotesk;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-    }
-    .top-para {
-      margin-top: 30px;
-      width: 504px;
-      color: #111;
-      font-family: Space Grotesk;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin-bottom: 40px;
-    }
+}
+.reviews-section {
+  margin-bottom: 102px;
+  h2 {
+    margin-bottom: 24px;
+    color: var(--dark, #1e1e2f);
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .top-para {
+    margin-top: 30px;
+    width: 504px;
+    color: #111;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
   }
 }

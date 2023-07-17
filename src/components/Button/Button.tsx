@@ -6,11 +6,17 @@ interface ButtonProps {
   children: ReactNode;
   type?: "INVERTED" | "PRIMARY";
   style?: Object;
+  className?: string;
 }
 
-const Button: FC<ButtonProps> = ({ children, type = "PRIMARY", style }) => {
+const Button: FC<ButtonProps> = ({ children, type = "PRIMARY", style, className }) => {
   return (
-    <button className={type === "PRIMARY" ? "btn-primary" : "btn-inverted"} style={style}>
+    <button
+      className={`${type === "PRIMARY" ? "btn-primary" : "btn-inverted"} ${
+        className ? className : ""
+      }`}
+      style={style}
+    >
       {children}
     </button>
   );

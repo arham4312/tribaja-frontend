@@ -1,72 +1,8 @@
 .talent-screen {
   padding-inline: 96px;
-  .events-section {
-    h2 {
-      color: var(--dark, #1e1e2f);
-      font-family: Space Grotesk;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      margin-bottom: 24px;
-    }
-    .events-cards {
-      margin-top: 32px;
-      display: flex;
-      gap: 24px;
-      // flex-wrap: wrap;
-      .event-card {
-        border-radius: 18.953px;
-        background: var(--very-lite-purple, #faf9ff);
-        flex-shrink: 1;
-      }
-      .card-text {
-        display: flex;
-        gap: 19px;
-        padding: 19px 24px;
 
-        .date {
-          p:first-of-type {
-            color: var(--brand-colors-color, #5937cc);
-            text-align: center;
-            font-family: Space Grotesk;
-            font-size: 11.372px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-          }
-          p {
-            color: #000;
-            font-family: Space Grotesk;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-          }
-        }
-        .event-info {
-          p:first-of-type {
-            color: var(--text-primary, #1e1e2f);
-            font-family: Space Grotesk;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 150%; /* 24px */
-            margin-bottom: 10px;
-          }
-          p {
-            color: #6a6a6a;
-            font-family: Space Grotesk;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 150%; /* 21px */
-          }
-        }
-      }
-    }
-  }
   .courses-section {
+    margin-bottom: 120px;
     h2 {
       color: var(--dark, #1e1e2f);
       font-family: Space Grotesk;
@@ -106,6 +42,13 @@
           align-items: center;
           border-radius: 16px;
           background: var(--gray-100, #f2f4f7);
+          color: var(--gray-700, #344054);
+          text-align: center;
+          font-family: Space Grotesk;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 18px; /* 150% */
         }
         .description {
           color: var(--344054, #344054);
@@ -121,6 +64,146 @@
         display: flex;
         gap: 16px;
       }
+    }
+  }
+  .recommended-jobs-section {
+    margin-bottom: 120px;
+    h2 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+    .cards {
+      margin-top: 40px;
+      display: flex;
+      gap: 24px;
+      margin-bottom: 16px;
+      .card {
+        padding: 40px 32px;
+        border-radius: 24px;
+        background: var(--very-lite-purple, #faf9ff);
+        & > div:first-of-type {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .svg-wrapper {
+            height: 48px;
+          }
+          p {
+            color: var(--text-secondry, #344054);
+            text-align: right;
+            font-family: Space Grotesk;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 100.9%; /* 12.108px */
+          }
+        }
+        .job-title {
+          color: #000;
+          font-family: Space Grotesk;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px; /* 100% */
+        }
+        .chips {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px 11px;
+          margin-block: 24px;
+          .chip {
+            color: var(--gray-700, #344054);
+            text-align: center;
+            font-family: Space Grotesk;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 150% */
+            border-radius: 16px;
+            background: var(--gray-100, #f2f4f7);
+            padding-inline: 8px;
+          }
+        }
+        .location-div {
+          color: var(--dark, #1e1e2f);
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          div {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            color: var(--dark, #1e1e2f);
+            font-family: Space Grotesk;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 200% */
+          }
+          svg {
+            stroke: var(--dark, #1e1e2f);
+            color: var(--dark, #1e1e2f);
+            height: 12px;
+          }
+        }
+        .buttons {
+          display: flex;
+          gap: 16px;
+          .save-btn {
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid var(--brand-colors-yellow, #feedcc);
+    background: var(--brand-colors-yellow, #feedcc);
+    padding: 60px;
+    margin-bottom: 120px;
+    h1 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.5%; /* 54.96px */
+      margin-bottom: 16px;
+    }
+    p {
+      color: var(--dark-2, #344054);
+      font-family: Space Grotesk;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+  }
+  .talent-at-work {
+    margin-bottom: 120px;
+    text-align: center;
+    h2 {
+      color: var(--text-secondry, #344054);
+      font-family: Space Grotesk;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 60px;
+    }
+    .imges {
+      display: flex;
+      gap: 24px;
     }
   }
 }

@@ -44,6 +44,7 @@ import ceoMessage from "../../assets/images/ceoMessage.png";
 const HomePage: FC = () => {
   return (
     <>
+      <NavBar />
       <div
         style={{
           backgroundImage: `url(${circles})`,
@@ -52,7 +53,6 @@ const HomePage: FC = () => {
         }}
         className="homepage"
       >
-        <NavBar />
         <HeroSection />
         <CommunityImpactSection />
         <HowItWorksSection />
