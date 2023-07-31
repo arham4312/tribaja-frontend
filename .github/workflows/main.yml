@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "16"
       - name: install
-        run: npm install
+        run: yarn install
       - name: ESLint
-        run: npm run fix .
+        run: yarn run fix .
 

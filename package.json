@@ -27,7 +27,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
-    "fix": "npm run format && npm run lint:fix"
+    "fix": "yarn format && yarn lint:fix"
   },
   "eslintConfig": {
     "extends": [
