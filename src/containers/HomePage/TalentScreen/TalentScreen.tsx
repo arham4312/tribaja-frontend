@@ -34,8 +34,8 @@ const TalentScreen: FC = () => {
           <div>
             <h1>Embark on a Journey of Exploration, Creation, and Growth</h1>
             <p>
-              Get connected to recruiters & a supportive community in tech and startup. The best
-              part is, it's absolutely FREE!
+              Get connected to recruiters & a supportive community in tech and
+              startup. The best part is, it's absolutely FREE!
             </p>
             <Button>Signup Now</Button>
           </div>
@@ -158,10 +158,11 @@ const TalentScreen: FC = () => {
                 <p className="chip">Hackathon</p>
               </div>
               <p className="description">
-                Aim to create new candidate pools from previously underrepresented groups in tech,
-                and our continued efforts to support those candidates through admissions (including
-                scholarships), classwork, and on to job hunting through mentorship and networking
-                support
+                Aim to create new candidate pools from previously
+                underrepresented groups in tech, and our continued efforts to
+                support those candidates through admissions (including
+                scholarships), classwork, and on to job hunting through
+                mentorship and networking support
               </p>
               <div className="button-group">
                 <Button>Enroll</Button>
@@ -179,10 +180,11 @@ const TalentScreen: FC = () => {
                 <p className="chip">Hackathon</p>
               </div>
               <p className="description">
-                Aim to create new candidate pools from previously underrepresented groups in tech,
-                and our continued efforts to support those candidates through admissions (including
-                scholarships), classwork, and on to job hunting through mentorship and networking
-                support
+                Aim to create new candidate pools from previously
+                underrepresented groups in tech, and our continued efforts to
+                support those candidates through admissions (including
+                scholarships), classwork, and on to job hunting through
+                mentorship and networking support
               </p>
               <div className="button-group">
                 <Button>Enroll</Button>
@@ -200,10 +202,11 @@ const TalentScreen: FC = () => {
                 <p className="chip">Hackathon</p>
               </div>
               <p className="description">
-                Aim to create new candidate pools from previously underrepresented groups in tech,
-                and our continued efforts to support those candidates through admissions (including
-                scholarships), classwork, and on to job hunting through mentorship and networking
-                support
+                Aim to create new candidate pools from previously
+                underrepresented groups in tech, and our continued efforts to
+                support those candidates through admissions (including
+                scholarships), classwork, and on to job hunting through
+                mentorship and networking support
               </p>
               <div className="button-group">
                 <Button>Enroll</Button>

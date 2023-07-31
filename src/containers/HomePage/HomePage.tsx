@@ -71,18 +71,29 @@ const HomePage: FC = () => {
 
 export default HomePage;
 const HeroSection: FC = () => {
-  const linearGradient = "linear-gradient(180deg, rgba(65, 65, 65, 0) 58.33%, #111 100%)";
+  const linearGradient =
+    "linear-gradient(180deg, rgba(65, 65, 65, 0) 58.33%, #111 100%)";
 
   return (
     <section className="hero-section">
-      <h1 className="hero-text">Your trusted career guide for life's career changes</h1>
-      <p className="hero-subtext">Your trusted career guide for life's career changes</p>
-      <Button style={{ display: "block", margin: "auto", marginBottom: "40px" }}>
+      <h1 className="hero-text">
+        Your trusted career guide for life's career changes
+      </h1>
+      <p className="hero-subtext">
+        Your trusted career guide for life's career changes
+      </p>
+      <Button
+        style={{ display: "block", margin: "auto", marginBottom: "40px" }}
+      >
         Let's Start
       </Button>
       <div className="homepage__cards">
         {/* Talent Card */}
-        <div style={{ backgroundImage: `${linearGradient},url(${talentCardImage})` }}>
+        <div
+          style={{
+            backgroundImage: `${linearGradient},url(${talentCardImage})`,
+          }}
+        >
           <p>Talent</p>
           <Link to="/talent">
             Join Now
@@ -90,28 +101,46 @@ const HeroSection: FC = () => {
           </Link>
         </div>
         {/* Employers Card */}
-        <div style={{ backgroundImage: `${linearGradient},url(${employersCardImage})` }}>
+        <div
+          style={{
+            backgroundImage: `${linearGradient},url(${employersCardImage})`,
+          }}
+        >
           <p>Employers</p>
           <Link to="/talent">
             Join Now <FiArrowUpRight />
           </Link>
         </div>
         {/* Scout Card */}
-        <div style={{ backgroundImage: `${linearGradient},url(${scountCardImage})` }}>
+        <div
+          style={{
+            backgroundImage: `${linearGradient},url(${scountCardImage})`,
+          }}
+        >
           <p>Scout</p>
           <Link to="/talent">
             Join Now <FiArrowUpRight />
           </Link>
         </div>
         {/* Training Partner Card */}
-        <div style={{ backgroundImage: `${linearGradient},url(${tradingPartnerCardImage})` }}>
+        <div
+          style={{
+            backgroundImage: `${linearGradient},url(${tradingPartnerCardImage})`,
+          }}
+        >
           <p>Training Partner</p>
           <Link to="/talent">
             Join Now <FiArrowUpRight />
           </Link>
         </div>
       </div>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
         <GoogleLogo />
         <YoutubeLogo />
         <MicrosoftLogo />
@@ -130,8 +159,8 @@ const CommunityImpactSection: FC = () => {
       <h2>Our Community Impact</h2>
       <HrSeperator />
       <p className="top-para">
-        We are so excited and proud of our product. It's really easy to create a landing page for
-        your awesome product.
+        We are so excited and proud of our product. It's really easy to create a
+        landing page for your awesome product.
       </p>
       <div className="community-impact-section__details">
         <div className="community-impact-section__cards">
@@ -181,8 +210,8 @@ const HowItWorksSection: FC = () => {
             <div className="works-text">
               <p>Create a free profile</p>
               <p>
-                This is an opportunity to showcase who you are. Take your time and make a great
-                impression.
+                This is an opportunity to showcase who you are. Take your time
+                and make a great impression.
               </p>
             </div>
             <div className="down-arrow-wrapper">
@@ -196,8 +225,8 @@ const HowItWorksSection: FC = () => {
             <div className="works-text">
               <p>Create a free profile</p>
               <p>
-                This is an opportunity to showcase who you are. Take your time and make a great
-                impression.
+                This is an opportunity to showcase who you are. Take your time
+                and make a great impression.
               </p>
             </div>
             <div className="down-arrow-wrapper">
@@ -211,8 +240,8 @@ const HowItWorksSection: FC = () => {
             <div className="works-text">
               <p>Create a free profile</p>
               <p>
-                This is an opportunity to showcase who you are. Take your time and make a great
-                impression.
+                This is an opportunity to showcase who you are. Take your time
+                and make a great impression.
               </p>
             </div>
           </div>
@@ -232,24 +261,42 @@ const TalentCardSection: FC = () => {
         <div className="text">
           <h3>Talent</h3>
           <p>
-            Discover a network of top-notch recruiters and like-minded professionals who share your
-            passion for technology and startups.
+            Discover a network of top-notch recruiters and like-minded
+            professionals who share your passion for technology and startups.
           </p>
           <Button>Learn more</Button>
         </div>
-        <div style={{ background: `url(${peachCardBackground})`, backgroundSize: "cover" }}>
-          <img src={talentCardImageFull} alt="talent card" style={{ maxWidth: "unset" }} />
+        <div
+          style={{
+            background: `url(${peachCardBackground})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <img
+            src={talentCardImageFull}
+            alt="talent card"
+            style={{ maxWidth: "unset" }}
+          />
         </div>
       </div>
       <div className="talent-card purple">
-        <div style={{ background: `url(${purpleCardBackgroun})`, backgroundSize: "cover" }}>
-          <img src={talentCardImageFull} alt="talent card" style={{ maxWidth: "unset" }} />
+        <div
+          style={{
+            background: `url(${purpleCardBackgroun})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <img
+            src={talentCardImageFull}
+            alt="talent card"
+            style={{ maxWidth: "unset" }}
+          />
         </div>
         <div className="text">
           <h3>Talent</h3>
           <p>
-            Discover a network of top-notch recruiters and like-minded professionals who share your
-            passion for technology and startups.
+            Discover a network of top-notch recruiters and like-minded
+            professionals who share your passion for technology and startups.
           </p>
           <Button>Learn more</Button>
         </div>
@@ -258,13 +305,22 @@ const TalentCardSection: FC = () => {
         <div className="text">
           <h3>Scout</h3>
           <p>
-            Discover a network of top-notch recruiters and like-minded professionals who share your
-            passion for technology and startups.
+            Discover a network of top-notch recruiters and like-minded
+            professionals who share your passion for technology and startups.
           </p>
           <Button>Learn more</Button>
         </div>
-        <div style={{ background: `url(${peachCardBackground})`, backgroundSize: "cover" }}>
-          <img src={scoutCardImageFull} alt="talent card" style={{ maxWidth: "unset" }} />
+        <div
+          style={{
+            background: `url(${peachCardBackground})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <img
+            src={scoutCardImageFull}
+            alt="talent card"
+            style={{ maxWidth: "unset" }}
+          />
         </div>
       </div>
     </section>
@@ -281,10 +337,12 @@ const CEOMessageSection: FC = () => {
 
         <div className="ceo-message-right">
           <p className="ceo-message-text">
-            ”As an Afro-Latina and single mother, I struggled to make ends meet. I had a obtained my
-            bachelor's degree and worked a corporate job but it wasn’t enough. I faced barriers and
-            bias trying to climb the ladder and so I set out to make a career change. Transitioning
-            into the tech industry changed my life and now I help others to do the same.”
+            ”As an Afro-Latina and single mother, I struggled to make ends meet.
+            I had a obtained my bachelor's degree and worked a corporate job but
+            it wasn’t enough. I faced barriers and bias trying to climb the
+            ladder and so I set out to make a career change. Transitioning into
+            the tech industry changed my life and now I help others to do the
+            same.”
           </p>
           <div className="salary-comparison">
             <div>
@@ -309,7 +367,8 @@ const ReviewsSection: FC = () => {
       <h2>Reviews</h2>
       <HrSeperator />
       <p className="top-para">
-        Join 11,400+ members that are already on their journey to a career in tech.
+        Join 11,400+ members that are already on their journey to a career in
+        tech.
       </p>
       <ReviewCards />
     </section>

@@ -9,7 +9,12 @@ interface ButtonProps {
   className?: string;
 }
 
-const Button: FC<ButtonProps> = ({ children, type = "PRIMARY", style, className }) => {
+const Button: FC<ButtonProps> = ({
+  children,
+  type = "PRIMARY",
+  style,
+  className,
+}) => {
   return (
     <button
       className={`${type === "PRIMARY" ? "btn-primary" : "btn-inverted"} ${
