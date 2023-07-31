@@ -3,7 +3,14 @@ import { Routes, Route } from "react-router-dom";
 import "./app.scss";
 import HomePage from "./containers/HomePage/HomePage";
 import TalentScreen from "./containers/HomePage/TalentScreen/TalentScreen";
-import EmployerScreen from "./containers/EmployerScreen/EmployerScreen";
+import EmployerHireScreen from "./containers/EmployerHireScreen/EmployerHireScreen";
+import EmployerPostJobScreen from "./containers/EmployerPostJobScreen/EmployerPostJobScreen";
+import PartnerScreen from "./containers/PartnerScreen/PartnerScreen";
+import SignUpScreen1 from "./containers/SignUpScreen1/SignUpScreen1";
+import SignUpScreen2 from "./containers/SignUpScreen2/SignUpScreen2";
+import SignUpScreenOTP from "./containers/SignUpScreenOTP/SignUpScreenOTP";
+import VerifyEmailScreen from "./containers/VerifyEmailScreen/VerifyEmailScreen";
+import LoginScreen from "./containers/LoginScreen/LoginScreen";
 
 const App = () => {
   return (
@@ -11,7 +18,14 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/talent" element={<TalentScreen />} />
-        <Route path="/employer" element={<EmployerScreen />} />
+        <Route path="/employer/hire-from-us" element={<EmployerHireScreen />} />
+        <Route path="/employer/post-job" element={<EmployerPostJobScreen />} />
+        <Route path="/partner" element={<PartnerScreen />} />
+        <Route path="/sign-up" element={<SignUpScreen1 />} />
+        <Route path="/sign-up-2" element={<SignUpScreen2 />} />
+        <Route path="/sign-up-otp" element={<SignUpScreenOTP />} />
+        <Route path="/verify-email" element={<VerifyEmailScreen />} />
+        <Route path="/login" element={<LoginScreen />} />
       </Routes>
     </div>
   );

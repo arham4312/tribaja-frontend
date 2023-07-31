@@ -52,11 +52,11 @@ const NavBar: FC = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link to="/employer">
+            <a href="#">
               <p style={isSubMenuOpen ? { color: "var(--dark, #1e1e2f)", fontWeight: 500 } : {}}>
                 Employer
               </p>
-            </Link>
+            </a>
             {isSubMenuOpen && <EmployeeDropDown />}
 
             <span
@@ -73,13 +73,21 @@ const NavBar: FC = () => {
               />
             </span>
           </p>
-          <p>Patner</p>
-          <p>Blog</p>
-          <p>Events</p>
+          <Link to="/partner">
+            <p>Partner</p>
+          </Link>
+          <Link to="#">
+            <p>Blog</p>
+          </Link>
+          <Link to="#">
+            <p>Events</p>
+          </Link>
         </div>
         <div className="account-links">
           <Button>Login</Button>
-          <Button type="INVERTED">Sign Up</Button>
+          <Button type="INVERTED">
+            <Link to="/sign-up">Sign up</Link>
+          </Button>
         </div>
       </div>
     </>
@@ -94,20 +102,24 @@ const EmployeeDropDown = (props: any) => {
       <div className="employee-drop-down">
         <div>Tribaja </div>
         <ul className="drop-down-options">
-          <li>
-            <BagSvg />
-            <div>
-              <p>Hire From Us</p>
-              <p>A place for employers to find diverse tech talent.</p>
-            </div>
-          </li>
-          <li>
-            <PlusSvg />
-            <div>
-              <p>Post a Job</p>
-              <p>Post and open role to share with our talent network.</p>
-            </div>
-          </li>
+          <Link to="/employer/hire-from-us">
+            <li>
+              <BagSvg />
+              <div>
+                <p>Hire From Us</p>
+                <p>A place for employers to find diverse tech talent.</p>
+              </div>
+            </li>
+          </Link>
+          <Link to="/employer/post-job">
+            <li>
+              <PlusSvg />
+              <div>
+                <p>Post a Job</p>
+                <p>Post and open role to share with our talent network.</p>
+              </div>
+            </li>
+          </Link>
         </ul>
       </div>
     </>

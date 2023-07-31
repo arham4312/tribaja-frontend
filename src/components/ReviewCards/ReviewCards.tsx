@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import ReviewCard from "../../components/ReviewCard/ReviewCard";
 import { ReactComponent as SpotifyLogo } from "../../assets/icons/spotifyLogo.svg";
 import { ReactComponent as GoogleLogo } from "../../assets/icons/googleLogo.svg";
@@ -14,7 +14,8 @@ import TaniaAparicioReview from "../../assets/images/TaniaAparicioReview.png";
 import "./ReviewCards.scss";
 
 export interface Review {
-  companyLogo: JSX.Element;
+  // companyLogo: JSX.Element;
+  companyLogo: ReactNode;
   review: string;
   authorImage: string;
   authorName: string;

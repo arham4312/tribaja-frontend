@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React, { useRef, FC } from "react";
 import NavBar from "../../../components/NavBar/NavBar";
 import HowWeHelpTalentSection from "../../../components/HowWeHelpTalentSection/HowWeHelpTalentSection";

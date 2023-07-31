@@ -1,0 +1,68 @@
+.sign-up-otp-screen {
+  h1 {
+    color: var(--dark, #1e1e2f);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.5%; /* 45.8px */
+    margin-top: 8px;
+    margin-bottom: 38px;
+  }
+  .otp-sent {
+    color: var(--text-primary, #1e1e2f);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
+  label {
+    width: 100%;
+    p {
+      color: var(--text-primary, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 11px;
+    }
+    input {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(102, 102, 102, 0.35);
+      height: 46px;
+      padding-inline: 10px;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    margin-bottom: 32px;
+  }
+  .resend-otp {
+    margin-top: 19px;
+    color: var(--text-primary, #1e1e2f);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    span {
+      color: var(--brand-colors-color, #5937cc);
+    }
+  }
+  .otp-verified-text {
+    color: var(--text-primary, #1e1e2f);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
+}

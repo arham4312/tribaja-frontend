@@ -1,0 +1,18 @@
+.sign-up-footer {
+  padding-inline: 94px;
+  padding-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: var(--grey, #999);
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  div {
+    display: flex;
+    gap: 16px;
+  }
+}
