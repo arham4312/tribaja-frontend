@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.22.5",
-    "@types/lodash": "^4.14.195"
+    "@types/lodash": "^4.14.195",
+    "eslint-plugin-jsx-a11y": "^6.7.1"
   }
 }
