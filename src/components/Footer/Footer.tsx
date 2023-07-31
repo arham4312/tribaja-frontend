@@ -11,7 +11,10 @@ const Footer: FC = () => {
           <div className="footer__text">
             <Logo />
             <p>We would love to hear from you.</p>
-            <p>Feel free to reach our if you want to collaborate with us, or simply have a chat</p>
+            <p>
+              Feel free to reach our if you want to collaborate with us, or
+              simply have a chat
+            </p>
             <Button>Contact Us</Button>
             <p>Don’t like the forms? Drop us a line via email.</p>
             <a href="mailto:hello@tribaja.com">hello@tribaja.com</a>

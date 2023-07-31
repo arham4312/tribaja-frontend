@@ -23,7 +23,10 @@ export const EventCard: FC = () => {
   const imgRef = useRef<HTMLImageElement | null>(null);
   return (
     <>
-      <div className="event-card" style={{ width: imgRef.current?.width || "auto" }}>
+      <div
+        className="event-card"
+        style={{ width: imgRef.current?.width || "auto" }}
+      >
         {/* <div className="event-card"> */}
         <img src={largetTechEvent} ref={imgRef} />
         <div className="card-text">
@@ -33,7 +36,10 @@ export const EventCard: FC = () => {
           </div>
           <div className="event-info">
             <p>Largest hybrid tech event on the east coast. </p>
-            <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
+            <p>
+              We’ll get you directly seated and inside for you to enjoy the
+              show.
+            </p>
           </div>
         </div>
       </div>

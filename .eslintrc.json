@@ -1,19 +1,21 @@
 {
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "react",
-    "jsx-a11y"
-  ],
-  "rules": {
-    "jsx-a11y/alt-text": "warn"
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+  "plugins": ["@typescript-eslint", "react"],
+  "rules": {
+    "jsx-a11y/alt-text": "error"
   }
 }

@@ -14,8 +14,9 @@ const HowWeHelpTalentSection: FC = () => {
           <img src={howWeHelpImage} alt="how we help" />
           <div className="text">
             <p className="text-title">
-              Are you tired of being stuck in a dead-end job? Do you want to upskill and find better
-              job opportunities? Tribaja is here to help you!
+              Are you tired of being stuck in a dead-end job? Do you want to
+              upskill and find better job opportunities? Tribaja is here to help
+              you!
             </p>
             <div className="cards">
               <div className="card">
@@ -25,9 +26,10 @@ const HowWeHelpTalentSection: FC = () => {
                 <div>
                   <p>Custom Career Matches & Recommendations</p>
                   <p>
-                    Our platform offers a self-service tool that provides best-in-class
-                    recommendations for upskilling and connecting with inclusive workplaces. With
-                    Tribaja, you can find job opportunities that match your skills and career goals.
+                    Our platform offers a self-service tool that provides
+                    best-in-class recommendations for upskilling and connecting
+                    with inclusive workplaces. With Tribaja, you can find job
+                    opportunities that match your skills and career goals.
                   </p>
                 </div>
               </div>
@@ -38,9 +40,10 @@ const HowWeHelpTalentSection: FC = () => {
                 <div>
                   <p>Custom Career Matches & Recommendations</p>
                   <p>
-                    Our platform offers a self-service tool that provides best-in-class
-                    recommendations for upskilling and connecting with inclusive workplaces. With
-                    Tribaja, you can find job opportunities that match your skills and career goals.
+                    Our platform offers a self-service tool that provides
+                    best-in-class recommendations for upskilling and connecting
+                    with inclusive workplaces. With Tribaja, you can find job
+                    opportunities that match your skills and career goals.
                   </p>
                 </div>
               </div>
@@ -51,9 +54,10 @@ const HowWeHelpTalentSection: FC = () => {
                 <div>
                   <p>Custom Career Matches & Recommendations</p>
                   <p>
-                    Our platform offers a self-service tool that provides best-in-class
-                    recommendations for upskilling and connecting with inclusive workplaces. With
-                    Tribaja, you can find job opportunities that match your skills and career goals.
+                    Our platform offers a self-service tool that provides
+                    best-in-class recommendations for upskilling and connecting
+                    with inclusive workplaces. With Tribaja, you can find job
+                    opportunities that match your skills and career goals.
                   </p>
                 </div>
               </div>
