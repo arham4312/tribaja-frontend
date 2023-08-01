@@ -11,6 +11,7 @@ import SignUpScreen2 from "./containers/SignUpScreen2/SignUpScreen2";
 import SignUpScreenOTP from "./containers/SignUpScreenOTP/SignUpScreenOTP";
 import VerifyEmailScreen from "./containers/VerifyEmailScreen/VerifyEmailScreen";
 import LoginScreen from "./containers/LoginScreen/LoginScreen";
+import ForgotPasswordScreen from "./containers/ForgotPasswordScreen/ForgotPasswordScreen";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/sign-up-otp" element={<SignUpScreenOTP />} />
         <Route path="/verify-email" element={<VerifyEmailScreen />} />
         <Route path="/login" element={<LoginScreen />} />
+        <Route path="/forgot-password" element={<ForgotPasswordScreen />} />
       </Routes>
     </div>
   );

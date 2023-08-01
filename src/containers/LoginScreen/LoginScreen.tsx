@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Button from "../../components/Button/Button";
 import SignUpNavBar from "../../components/SignUpNavBar/SignUpNavBar";
 // import "./SignUpScreen1.scss";
@@ -10,7 +10,7 @@ import { LoginWithLinkedInButton } from "../../components/Button/Button";
 import OrSeperator from "../../components/OrSeperator/OrSeperator";
 import { Link } from "react-router-dom";
 
-const LoginScreen = () => {
+const LoginScreen: FC = () => {
   return (
     <>
       <SignUpNavBar />
