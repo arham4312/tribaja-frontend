@@ -21,13 +21,7 @@ import talentCardImageFull from "../../assets/images/talentCardImageFull.png";
 import scoutCardImageFull from "../../assets/images/scoutCardImageFull.png";
 import purpleCardBackgroun from "../../assets/images/purpleCardBackgroun.png";
 import peachCardBackground from "../../assets/images/peachCardBackground.png";
-import { ReactComponent as GoogleLogo } from "../../assets/icons/googleLogo.svg";
-import { ReactComponent as YoutubeLogo } from "../../assets/icons/youtubeLogo.svg";
-import { ReactComponent as MicrosoftLogo } from "../../assets/icons/microSoftLogo.svg";
-import { ReactComponent as AmazonLogo } from "../../assets/icons/amazonLogo.svg";
-import { ReactComponent as AdobeLogo } from "../../assets/icons/adobeLogo.svg";
-import { ReactComponent as SpotifyLogo } from "../../assets/icons/spotifyLogo.svg";
-import { ReactComponent as UberLogo } from "../../assets/icons/uberLogo.svg";
+import CompaniesLogos from "../../components/CompaniesLogos/CompaniesLogos";
 // CommunityImpactSection
 import communityImpactImage from "../../assets/images/communityImpactImage.png";
 import { ReactComponent as SymbolHeartInHand } from "../../assets/images/SymbolHeartInHand.svg";
@@ -134,21 +128,7 @@ const HeroSection: FC = () => {
           </Link>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-        }}
-      >
-        <GoogleLogo />
-        <YoutubeLogo />
-        <MicrosoftLogo />
-        <AmazonLogo />
-        <AdobeLogo />
-        <SpotifyLogo />
-        <UberLogo />
-      </div>
+      <CompaniesLogos />
     </section>
   );
 };

@@ -1,0 +1,270 @@
+.post-job-screen {
+  padding-inline: 96px;
+  padding-top: 38px;
+  .hero-section {
+    border-radius: 24px;
+    border: 1px solid #bdafeb;
+    background: #bdafeb;
+    padding: 60px;
+  }
+  .hero-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+    .hero-image {
+      flex-shrink: 0;
+      align-self: flex-end;
+    }
+    .hero-text {
+      max-width: 578px;
+      & > p:first-of-type {
+        margin-top: 16px;
+        margin-bottom: 32px;
+      }
+    }
+    h1 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 114.5%; /* 54.96px */
+    }
+    & > p:first-of-type {
+      color: var(--dark-2, #344054);
+      font-family: Space Grotesk;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .buttons {
+      display: flex;
+      gap: 16px;
+    }
+  }
+  .logos {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    p {
+      color: var(--text-secondry, #344054);
+      font-family: Space Grotesk;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+  }
+  .connect-with-talent-section {
+    margin-bottom: 120px;
+    h2 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+    .connect-section-flex {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .percentage {
+      margin-bottom: 60px;
+      span {
+        position: relative;
+        color: var(--dark-1, #1e1e2f);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100.9%; /* 96.864px */
+      }
+      .svg-wrapper {
+        position: absolute;
+        top: -10%;
+        left: -10%;
+        z-index: -1;
+      }
+    }
+    .text-title {
+      color: var(--text-primary, #1e1e2f);
+      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100.9%; /* 28.252px */
+      margin-bottom: 16px;
+    }
+    .text-description {
+      color: var(--text-secondry, #344054);
+      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      max-width: 318px;
+    }
+  }
+  .how-we-find-talent-section {
+    margin-bottom: 120px;
+    h2 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+    .talent-flex {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+    .process-grid {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: 1fr 1fr;
+    }
+    .process-step {
+      .svg-wrapper {
+        border-radius: 24px;
+        background: var(--very-lite-purple, #faf9ff);
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .title {
+        color: #111;
+        font-family: Space Grotesk;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100.9%; /* 28.252px */
+        margin-bottom: 20px;
+      }
+      .description {
+        color: #111;
+        font-family: Space Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    .talent-image {
+      flex-shrink: 0;
+      //   align-self: flex-end;
+      width: 612px;
+      height: auto;
+    }
+  }
+  .pricing-section {
+    margin-bottom: 60px;
+    h2 {
+      color: var(--dark, #1e1e2f);
+      font-family: Space Grotesk;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+    .pricing-cards {
+      margin-top: 60px;
+      display: flex;
+      display: flex;
+      justify-content: space-between;
+    }
+    .pricing-card {
+      border-radius: 24px;
+      background: var(--very-lite-purple, #faf9ff);
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      gap: 60px;
+      button {
+        margin-top: auto;
+      }
+      .title {
+        color: var(--brand-colors-color, #5937cc);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 150% */
+        margin-bottom: 8px;
+      }
+    }
+    .svg-wrapper {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 6px solid #bdafeb;
+      background: #bdafeb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .price {
+      text-align: center;
+      & > span:first-of-type {
+        color: var(--text-primary, #1e1e2f);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px; /* 125% */
+        letter-spacing: -0.96px;
+      }
+      span {
+        font: inherit;
+      }
+    }
+    .for-anyone-text {
+      color: var(--text-secondry, #344054);
+      text-align: center;
+      font-family: Space Grotesk;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 171.429% */
+      margin-bottom: 45px;
+    }
+    .benefits {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .benefit {
+      display: flex;
+      gap: 12px;
+      p {
+        color: var(--text-secondry, #344054);
+        font-family: Space Grotesk;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 200% */
+      }
+    }
+  }
+}
